@@ -3,11 +3,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .card {
     background-color: rgb(179, 218, 243);
     padding: 30px;
-    border-radius: 20px;
-    
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 360px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color:#333;
+    text-align: center;
 }
